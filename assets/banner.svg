@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Geovana Grigorio — Selected Projects">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6B2FB5"/>
+      <stop offset="1" stop-color="#4A1E86"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A8F5"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g opacity="0.10" fill="#ffffff">
+    <circle cx="1080" cy="60" r="140"/>
+    <circle cx="170" cy="270" r="110"/>
+  </g>
+  <rect x="80" y="92" width="60" height="6" rx="3" fill="url(#accent)"/>
+  <text x="80" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff" letter-spacing="0.5">Geovana Grigorio</text>
+  <text x="82" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600" fill="#E9DDFB">Selected Projects</text>
+  <text x="82" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="500" fill="#C9B8E8">Full-Stack Developer · Backend-focused</text>
+  <text x="82" y="262" font-family="Consolas, monospace" font-size="15" fill="#B79FE0">TypeScript · Python · Go · Java · Rust · C++ · C# · Ruby</text>
+</svg>
