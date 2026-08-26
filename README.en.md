@@ -22,7 +22,7 @@ A curated index of my open-source work — production-style **APIs**, **web apps
 
 > 👋 I'm a full-stack developer focused on backend, clean APIs and data-driven services. Each entry below links to its own repository.
 
-> 🔗 **See it all together in my portfolio:** **[portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)**
+> 🔗 **See it all together in my portfolio:** **[geoggrigori.vercel.app](https://geoggrigori.vercel.app)**
 
 ---
 
@@ -75,6 +75,6 @@ A curated index of my open-source work — production-style **APIs**, **web apps
 
 ## 📫 Connect
 
-- **Portfolio:** [portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)
+- **Portfolio:** [geoggrigori.vercel.app](https://geoggrigori.vercel.app)
 - **GitHub:** [@geoggrigori](https://github.com/geoggrigori)
 - **LinkedIn:** [in/geoggrigori](https://linkedin.com/in/geoggrigori)
