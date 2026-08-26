@@ -22,7 +22,7 @@ Um índice curado do meu trabalho open-source — **APIs** com pegada de produç
 
 > 👋 Sou desenvolvedora full-stack focada em backend, APIs limpas e serviços orientados a dados. Cada item abaixo linka para seu próprio repositório.
 
-> 🔗 **Veja tudo junto no meu portfólio:** **[portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)**
+> 🔗 **Veja tudo junto no meu portfólio:** **[geoggrigori.vercel.app](https://geoggrigori.vercel.app)**
 
 ---
 
@@ -75,6 +75,6 @@ Um índice curado do meu trabalho open-source — **APIs** com pegada de produç
 
 ## 📫 Contato
 
-- **Portfólio:** [portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)
+- **Portfólio:** [geoggrigori.vercel.app](https://geoggrigori.vercel.app)
 - **GitHub:** [@geoggrigori](https://github.com/geoggrigori)
 - **LinkedIn:** [in/geoggrigori](https://linkedin.com/in/geoggrigori)
