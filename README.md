@@ -1,4 +1,11 @@
-![Geovana Grigorio — Selected Projects](assets/banner.svg)
+<!-- ══════════════════════ IDIOMAS / LANGUAGES ══════════════════════ -->
+<div align="center">
+<a href="README.md"><img src="https://img.shields.io/badge/Português-1987F0?style=for-the-badge" alt="Português"/></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/English-555555?style=for-the-badge" alt="English"/></a>
+<a href="README.es.md"><img src="https://img.shields.io/badge/Español-555555?style=for-the-badge" alt="Español"/></a>
+</div>
+
+![Geovana Grigorio — Projetos Selecionados](assets/banner.svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" alt="TypeScript">
@@ -11,60 +18,63 @@
   <img src="https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white&style=flat-square" alt="Ruby">
 </p>
 
-A curated index of my open-source work — production-style **APIs**, **web apps & dashboards**, **CLI tools** and **libraries**, spanning eight languages and their ecosystems. Every project ships with tests, a documented README, and (where applicable) green CI.
+Um índice curado do meu trabalho open-source — **APIs** com pegada de produção, **web apps & dashboards**, **ferramentas CLI** e **bibliotecas**, cobrindo oito linguagens e seus ecossistemas. Todo projeto vem com testes, um README documentado e (quando aplicável) CI verde.
 
-> 👋 I'm a full-stack developer focused on backend, clean APIs and data-driven services. Each entry below links to its own repository.
+> 👋 Sou desenvolvedora full-stack focada em backend, APIs limpas e serviços orientados a dados. Cada item abaixo linka para seu próprio repositório.
+
+> 🔗 **Veja tudo junto no meu portfólio:** **[portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)**
 
 ---
 
 ## 🔌 Backend & APIs
 
-| Project | What it does | Stack | Tests |
+| Projeto | O que faz | Stack | Testes |
 |---|---|---|:--:|
-| **[collections-api](https://github.com/geoggrigori/collections-api)** | Accounts-receivable / collections automation API for distributors — payments, background-job ETL and LLM-powered remittance matching | `Rails` · `PostgreSQL` | — |
-| **[ratewise-api](https://github.com/geoggrigori/ratewise-api)** | Production-grade token-bucket rate limiter middleware for Express APIs | `TypeScript` · `Express` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/ratewise-api/ci.yml?branch=main&style=flat-square&label=) |
-| **[ttlcache](https://github.com/geoggrigori/ttlcache)** | Concurrency-safe in-memory key-value cache with per-key TTL, over HTTP | `Go` · `net/http` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/ttlcache/ci.yml?branch=main&style=flat-square&label=) |
-| **[library-api](https://github.com/geoggrigori/library-api)** | Spring Boot REST API with JPA, H2, validation and a borrow/return workflow | `Java` · `Spring Boot` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/library-api/ci.yml?branch=main&style=flat-square&label=) |
-| **[tasks-api-dotnet](https://github.com/geoggrigori/tasks-api-dotnet)** | Clean .NET Minimal API with EF Core, validation, Swagger and integration tests | `C#` · `.NET` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/tasks-api-dotnet/ci.yml?branch=main&style=flat-square&label=) |
-| **[linkforge-api](https://github.com/geoggrigori/linkforge-api)** | URL shortener & analytics API with JWT auth, rate limiting, caching and Docker | `FastAPI` · `Docker` | — |
+| **[collections-api](https://github.com/geoggrigori/collections-api)** | API de automação de cobrança/AR para distribuidoras — pagamentos, ETL em background job e matching de remessas com LLM | `Rails` · `PostgreSQL` | — |
+| **[ratewise-api](https://github.com/geoggrigori/ratewise-api)** | Middleware de rate limiting (token bucket) de nível produção para APIs Express | `TypeScript` · `Express` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/ratewise-api/ci.yml?branch=main&style=flat-square&label=) |
+| **[ttlcache](https://github.com/geoggrigori/ttlcache)** | Cache chave-valor em memória, thread-safe, com TTL por chave, exposto via HTTP | `Go` · `net/http` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/ttlcache/ci.yml?branch=main&style=flat-square&label=) |
+| **[library-api](https://github.com/geoggrigori/library-api)** | API REST Spring Boot com JPA, H2, validação e fluxo de empréstimo/devolução | `Java` · `Spring Boot` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/library-api/ci.yml?branch=main&style=flat-square&label=) |
+| **[tasks-api-dotnet](https://github.com/geoggrigori/tasks-api-dotnet)** | Minimal API .NET limpa, com EF Core, validação, Swagger e testes de integração | `C#` · `.NET` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/tasks-api-dotnet/ci.yml?branch=main&style=flat-square&label=) |
+| **[linkforge-api](https://github.com/geoggrigori/linkforge-api)** | Encurtador de URL & API de analytics, com JWT, rate limiting, cache e Docker | `FastAPI` · `Docker` | — |
 
 ## 🖥️ Web Apps & Dashboards
 
-| Project | What it does | Stack | |
+| Projeto | O que faz | Stack | |
 |---|---|---|:--:|
-| **[gamematch](https://github.com/geoggrigori/gamematch)** | Mobile-first matchmaking app for gamers — swipe, match and chat | `React` · `Supabase` · `Capacitor` | |
-| **[collections-dashboard](https://github.com/geoggrigori/collections-dashboard)** | Accounts-receivable dashboard — front-end for the Collections API | `Next.js` · `React` | |
-| **[revenue-analytics](https://github.com/geoggrigori/revenue-analytics)** | Sales analytics dashboard — KPIs, SVG charts, channel breakdown | `Next.js` · `TypeScript` | |
-| **[pulse-dashboard](https://github.com/geoggrigori/pulse-dashboard)** | Realtime metrics dashboard — WebSocket streaming, hand-built SVG charts | `React` · `WebSocket` | |
-| **[ar-copilot](https://github.com/geoggrigori/ar-copilot)** | LLM-powered collection-email drafter for overdue invoices | `Next.js` · `LLM` | |
-| **[docchat-ai](https://github.com/geoggrigori/docchat-ai)** | RAG app: chat with your documents — BM25 retrieval + streaming cited answers | `Next.js` · `RAG` | |
-| **[marknote](https://github.com/geoggrigori/marknote)** | Fast Markdown notes app with live preview, search and dark mode | `React` · `Vite` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/marknote/ci.yml?branch=main&style=flat-square&label=) |
+| **[gamematch](https://github.com/geoggrigori/gamematch)** | App de matchmaking mobile-first para gamers — swipe, match e chat | `React` · `Supabase` · `Capacitor` | |
+| **[collections-dashboard](https://github.com/geoggrigori/collections-dashboard)** | Dashboard de cobrança/AR — front-end da Collections API | `Next.js` · `React` | |
+| **[revenue-analytics](https://github.com/geoggrigori/revenue-analytics)** | Dashboard de analytics de vendas — KPIs, gráficos SVG, breakdown por canal | `Next.js` · `TypeScript` | |
+| **[pulse-dashboard](https://github.com/geoggrigori/pulse-dashboard)** | Dashboard de métricas em tempo real — streaming via WebSocket, gráficos SVG feitos à mão | `React` · `WebSocket` | |
+| **[ar-copilot](https://github.com/geoggrigori/ar-copilot)** | Redator de e-mail de cobrança com LLM, para faturas em atraso | `Next.js` · `LLM` | |
+| **[docchat-ai](https://github.com/geoggrigori/docchat-ai)** | App de RAG: converse com seus documentos — recuperação BM25 + respostas citadas em streaming | `Next.js` · `RAG` | |
+| **[marknote](https://github.com/geoggrigori/marknote)** | App de notas Markdown rápido, com preview ao vivo, busca e modo escuro | `React` · `Vite` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/marknote/ci.yml?branch=main&style=flat-square&label=) |
 
-## 🛠️ CLI & Data Tools
+## 🛠️ CLI & Ferramentas de Dados
 
-| Project | What it does | Stack | Tests |
+| Projeto | O que faz | Stack | Testes |
 |---|---|---|:--:|
-| **[envguard](https://github.com/geoggrigori/envguard)** | Validates environment variables against a declarative TOML schema (CI-friendly) | `Python` · `zero-deps` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/envguard/ci.yml?branch=main&style=flat-square&label=) |
-| **[exprcalc](https://github.com/geoggrigori/exprcalc)** | Arithmetic expression evaluator: lexer + recursive-descent parser + REPL | `Rust` · `zero-deps` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/exprcalc/ci.yml?branch=main&style=flat-square&label=) |
-| **[insight-pipeline](https://github.com/geoggrigori/insight-pipeline)** | Data pipeline: ingest CSV/API, aggregate, detect trends and auto-generate reports | `Python` · `pandas` | — |
+| **[envguard](https://github.com/geoggrigori/envguard)** | Valida variáveis de ambiente contra um schema TOML declarativo (CI-friendly) | `Python` · `zero-deps` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/envguard/ci.yml?branch=main&style=flat-square&label=) |
+| **[exprcalc](https://github.com/geoggrigori/exprcalc)** | Avaliador de expressões aritméticas: lexer + parser recursivo-descendente + REPL | `Rust` · `zero-deps` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/exprcalc/ci.yml?branch=main&style=flat-square&label=) |
+| **[insight-pipeline](https://github.com/geoggrigori/insight-pipeline)** | Pipeline de dados: ingestão CSV/API, agregação, detecção de tendências e relatórios automáticos | `Python` · `pandas` | — |
 
-## 📦 Libraries & Data Structures
+## 📦 Bibliotecas & Estruturas de Dados
 
-| Project | What it does | Stack | Tests |
+| Projeto | O que faz | Stack | Testes |
 |---|---|---|:--:|
-| **[lru-cache-cpp](https://github.com/geoggrigori/lru-cache-cpp)** | Header-only, templated O(1) LRU cache for modern C++17 | `C++17` · `CMake` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/lru-cache-cpp/ci.yml?branch=main&style=flat-square&label=) |
+| **[lru-cache-cpp](https://github.com/geoggrigori/lru-cache-cpp)** | Cache LRU O(1), header-only e templated, para C++17 moderno | `C++17` · `CMake` | ![CI](https://img.shields.io/github/actions/workflow/status/geoggrigori/lru-cache-cpp/ci.yml?branch=main&style=flat-square&label=) |
 
 ---
 
-## 🧰 Tech across these projects
+## 🧰 Tecnologias usadas nesses projetos
 
-**Languages:** TypeScript · JavaScript · Python · Go · Java · Rust · C++ · C# · Ruby
+**Linguagens:** TypeScript · JavaScript · Python · Go · Java · Rust · C++ · C# · Ruby
 **Backend:** Node/Express · FastAPI · Spring Boot · ASP.NET Minimal API · Rails · net/http
 **Frontend:** React · Next.js · Vite · Tailwind CSS
-**Data & infra:** PostgreSQL · H2 · EF Core · JPA · Supabase · Docker · pandas · WebSocket
-**Quality:** Vitest · pytest · JUnit · xUnit · CTest · `go test -race` · GitHub Actions CI
+**Dados & infra:** PostgreSQL · H2 · EF Core · JPA · Supabase · Docker · pandas · WebSocket
+**Qualidade:** Vitest · pytest · JUnit · xUnit · CTest · `go test -race` · GitHub Actions CI
 
-## 📫 Connect
+## 📫 Contato
 
+- **Portfólio:** [portfolio-sandy-rho-84.vercel.app](https://portfolio-sandy-rho-84.vercel.app)
 - **GitHub:** [@geoggrigori](https://github.com/geoggrigori)
 - **LinkedIn:** [in/geoggrigori](https://linkedin.com/in/geoggrigori)
